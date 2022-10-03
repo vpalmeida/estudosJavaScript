@@ -1,0 +1,92 @@
+body {
+    /*alinha o conteúdo do corpo da página ao centro*/
+    text-align: center;
+    background-color: #BDB76B;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+label,
+h1,
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #800000;
+}
+
+.quadrado {
+    /*centralizar o conteúdo*/
+    text-align: center;
+    /*largura da classe*/
+    width: 40px;
+    /*cor de fundo da classe*/
+    background-color: #A0522D;
+    /*não vai expandir pra direita*/
+    display: inline-block;
+    /*margem do conteúdo interno*/
+    padding: 30px;
+    /*tamanho da fonte da classe*/
+    font-size: 40px;
+    /*margem externa*/
+    margin: 5px;
+    /*modifica o cursor para uma mão ao passar por cima da classe*/
+    cursor: pointer;
+    /*define a cor do texto*/
+    color: #A0522D;
+}
+
+#jogadores {
+    display: inline-block;
+}
+
+#placar {
+    /*não vai expandir pra direita*/
+    display: inline-block;
+    /*margem externa*/
+    margin-left: 60px;
+    /*modifica o cursor para uma mão ao passar por cima da classe*/
+    cursor: pointer;
+    /*define a cor do texto*/
+    color: #800000;
+    position: relative;
+    bottom: 5px;
+}
+
+#placar label {
+    display: block;
+    margin: 5px;
+}
+
+.jogador,
+.vencedor {
+    /*tamanho da fonte da classe*/
+    font-size: 30px;
+    /*margem externa superior*/
+    margin-top: 10px;
+}
+
+button {
+    /*margem externa superior*/
+    margin-top: 10px;
+    /*largura do botão*/
+    width: 100px;
+    /*altura do notão*/
+    height: 30px;
+    /*cor de fundo do botão*/
+    background: #eee;
+    /*modifica o cursor para uma mão ao passar por cima do botão*/
+    cursor: pointer;
+    color: #800000;
+    border-radius: 20%;
+    background-color: #FFDEAD;
+    font-weight: bold;
+}
+
+#placar button {
+    font-size: x-small;
+    width: max-content;
+    margin: 0px;
+    margin-top: 15px;
+}
